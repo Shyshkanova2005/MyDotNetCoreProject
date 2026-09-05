@@ -9,6 +9,7 @@ class Program
         GreetUser("User");
         ShowInfo();
         ShowDate();
+        ShowMessage();
     }
 
     static void GreetUser(string name)
@@ -25,5 +26,9 @@ class Program
     static void ShowDate()
     {
         Console.WriteLine($"Today is: {DateTime.Now:dd.MM.yyyy}");
+    }
+    static void ShowMessage()
+    {
+        Console.WriteLine("Have a great day!");
     }
 }
